@@ -58,16 +58,48 @@
 		6D5112E6276CA5CB009C01B1 /* ChangeViewLight */ = {
 			isa = PBXGroup;
 			children = (
-				6D5112E7276CA5CB009C01B1 /* AppDelegate.swift */,
-				6D5112E9276CA5CB009C01B1 /* SceneDelegate.swift */,
-				6D5112EB276CA5CB009C01B1 /* ColorSettingsViewController.swift */,
-				6D7C22EA278DA6F60038DBC0 /* ColorPresentViewController.swift */,
-				6D5112ED276CA5CB009C01B1 /* Main.storyboard */,
-				6D5112F0276CA5CC009C01B1 /* Assets.xcassets */,
-				6D5112F2276CA5CC009C01B1 /* LaunchScreen.storyboard */,
-				6D5112F5276CA5CC009C01B1 /* Info.plist */,
+				6D7C22ED278EF00C0038DBC0 /* Storyboards */,
+				6D7C22EC278EEFF90038DBC0 /* Controllers */,
+				6D7C22EF278EF05A0038DBC0 /* App */,
+				6D7C22EE278EF0330038DBC0 /* Resources */,
 			);
 			path = ChangeViewLight;
+			sourceTree = "<group>";
+		};
+		6D7C22EC278EEFF90038DBC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D5112EB276CA5CB009C01B1 /* ColorSettingsViewController.swift */,
+				6D7C22EA278DA6F60038DBC0 /* ColorPresentViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D7C22ED278EF00C0038DBC0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6D5112ED276CA5CB009C01B1 /* Main.storyboard */,
+				6D5112F2276CA5CC009C01B1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6D7C22EE278EF0330038DBC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6D5112F0276CA5CC009C01B1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6D7C22EF278EF05A0038DBC0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6D5112E7276CA5CB009C01B1 /* AppDelegate.swift */,
+				6D5112E9276CA5CB009C01B1 /* SceneDelegate.swift */,
+				6D5112F5276CA5CC009C01B1 /* Info.plist */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KK9GF9S9VR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChangeViewLight/Info.plist;
+				INFOPLIST_FILE = ChangeViewLight/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +360,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KK9GF9S9VR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ChangeViewLight/Info.plist;
+				INFOPLIST_FILE = ChangeViewLight/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

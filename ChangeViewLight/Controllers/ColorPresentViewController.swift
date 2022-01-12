@@ -20,7 +20,6 @@ class ColorPresentViewController: UIViewController {
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print(200)
         guard let colorSettingsVC = segue.destination as? ColorSettingsViewController else { return }
 
         colorSettingsVC.delegate = self
@@ -28,7 +27,10 @@ class ColorPresentViewController: UIViewController {
     }
 }
 
+// MARK: - Delegate
+
 extension ColorPresentViewController: ColorSettingsViewControllerDelegate {
     func setNewColor(at color: UIColor) {
+        view.backgroundColor = color
     }
 }
